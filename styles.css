@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    
     padding: 0;
 }
 body{
@@ -11,7 +10,6 @@ body{
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
 a{
@@ -19,20 +17,29 @@ a{
     color: black;
     font-size: 1.2rem;
 }
+
 ul{
-    width: 20em;
+    min-width: 450px;
+    width: 10%;
     list-style: none;
     padding: .5em;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;    
 }
 .header{
-    width: 80%;
+    background-color: aliceblue;
+    width: 95%;
+    padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .img-tag{
     width: 80%;
     text-align: center;
 
+}
+img{
+        padding: 5px;
 }
