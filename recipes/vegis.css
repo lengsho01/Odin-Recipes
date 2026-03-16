@@ -1,0 +1,11 @@
+.body{
+    box-sizing: border-box;
+    align-items: center;
+}
+h1{
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
