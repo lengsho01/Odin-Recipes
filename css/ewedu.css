@@ -3,6 +3,20 @@ body {
     margin-top: 0;
     padding: 0;
 }
+
 .header-bar {
+    width: 100%;
     background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bar > .header-nav-bar ul{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.header-bar > .header-nav-bar {
+    width: 15%;
 }

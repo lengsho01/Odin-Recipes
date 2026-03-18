@@ -6,3 +6,12 @@ body {
 .header-bar {
     background-color: orange;
 }
+
+.header-bar {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

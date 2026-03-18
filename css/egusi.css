@@ -1,8 +1,21 @@
 
 body {
-    margin-top: 0;
+    
+    margin: 0;
     padding: 0;
 }
+li{
+   text-decoration: none ; 
+}
 .header-bar {
+    width: 100%;
     background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bar > .header-nav-bar {
+    display: flex;
+    flex-direction: row;
 }

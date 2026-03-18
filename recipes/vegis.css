@@ -9,3 +9,13 @@ h1{
     display: flex;
     flex-direction: row;
 }
+
+
+.header-bar {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
